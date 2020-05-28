@@ -1,0 +1,20 @@
+.card-product {
+  display: flex;
+  align-items: center;
+  /* width: 400px; */
+}
+.product-img {
+  height: 120px;
+  width: 120px;
+  background-size: cover;
+  background-position: center;
+}
+
+.product-description {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+.product-description h2, .product-description p {
+  margin: 0;
+}

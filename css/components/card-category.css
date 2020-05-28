@@ -1,0 +1,16 @@
+.card-category {
+  background-size: cover;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  height: 200px;
+  width: 300px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 300ms;
+}
+
+.card-category:hover {
+  transform: scale(1.05);
+}
